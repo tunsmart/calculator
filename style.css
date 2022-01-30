@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("ubuntu.jpg");
+}
+
+.container-1 {
+    background-color: rgb(6, 20, 20);
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border: light;
+    padding: 5px;
+    margin: 30px 0px 0px 0px;
+    border-bottom-left-radius: 10px 5px;
+    border-bottom-right-radius: 10px 5px;
+}
+
+.calc-head {
+    background-color: darkslategrey;
+    height: 15px;
+}
+
+p {
+    height: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0px;
+}
+
+button {
+    width: 30px;
+    height: 40px;
+}
+
+.buttons {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digit {
+    flex-basis: 33.333333%;
+    flex-grow: 1;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.operators button {
+    width: 40px;
+    height: 40px;
+}
+
+.clear-equal {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.clear-equal button {
+    width: 40px;
+    height: 40px;
+}
+
+.equal {
+    background-color: green;
+    border:  black;
+    color: white;
+    border-bottom-right-radius: 2px;
+}
